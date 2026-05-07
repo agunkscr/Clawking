@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Molty Royale Bot Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Molty Royale Bot Dashboard</h1>
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-value" id="totalWins">0</div>
+        <div class="stat-label">Total Wins</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="totalSmoltz">0</div>
+        <div class="stat-label">sMoltz</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="totalMoltz">0</div>
+        <div class="stat-label">Moltz</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="botsRunning">0</div>
+        <div class="stat-label">Bots Running</div>
+      </div>
+    </div>
+    <h2>📋 Agent Status</h2>
+    <div id="agentContainer"></div>
+    <h2>📝 Recent Logs</h2>
+    <div id="logContainer" class="logs"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
